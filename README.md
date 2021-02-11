@@ -20,11 +20,9 @@ To run macros in general:
 
 If these steps don't work, you may have to restart word.
 
-After pasting into Dreamweaver, the angle brackets <> will be converted into html entities, so you will have to replace them manually using the following regex statements:
+After pasting into Dreamweaver, the angle brackets <> will be converted into html entities, so you will have to replace them manually using the following regex statements to convert them back into tags. Converting them into tags can also be done with the [general dreamweaver formatting tool](https://commwebteam.github.io/gen_dw_format/basic_format.html).
 1. Replace &amp;lt;(/&ast;math.&ast;?)&amp;gt; with &lt;$1&gt;
 2. Replace &amp;lt;(/&ast;m[ion].&ast;?)&amp;gt; with &lt;$1&gt;
-
-This can also be done with the [general dreamweaver formatting tool](https://commwebteam.github.io/gen_dw_format/basic_format.html).
 
 # Textbox macro
 The textbox macro moves text out of textboxes and into the main document (in their original location), and then deletes the now-empty textboxes. This does not preserve any formatting in those textboxes, so it should only be used for Beyond Comparing.
