@@ -1,12 +1,9 @@
 Sub ReplaceMathML()
 
 Dim nNumber As Integer
-Dim mNumber As Integer
 Dim strMath As String
 Dim objData As New MSForms.DataObject
 Dim oRange As Range
-Dim prevString As String
-Dim nextString As String
 
 If ActiveDocument.OMaths.Count > 0 Then
 
@@ -20,8 +17,6 @@ If ActiveDocument.OMaths.Count > 0 Then
             strMath = Replace(strMath, "xmlns:mml=""http://www.w3.org/1998/Math/MathML"" xmlns:m=""http://schemas.openxmlformats.org/officeDocument/2006/math""", "")
             
             oRange.Select
-            prevString = Selection.Previous
-            nextString = Selection.Next
             Selection.Next.Select
             .OMaths(1).Range.Select
             Selection.Delete
