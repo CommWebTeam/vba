@@ -25,4 +25,4 @@ After pasting into Dreamweaver, the angle brackets <> will be converted into htm
 2. Replace &amp;lt;(/&ast;m[ion].&ast;?)&amp;gt; with &lt;$1&gt;
 
 # Textbox macro
-The textbox macro (sourced from [here](https://word.tips.net/T001690_Removing_All_Text_Boxes_In_a_Document.html) moves text out of textboxes and into the main document (in their original location), and then deletes the now-empty textboxes. This does not preserve any formatting in those textboxes, so it should only be used for Beyond Comparing.
+The textbox macro (sourced from [here](https://word.tips.net/T001690_Removing_All_Text_Boxes_In_a_Document.html)) moves text out of textboxes and into the main document (in their original location), and then deletes the now-empty textboxes. This does not preserve any formatting in those textboxes, so it should only be used for Beyond Comparing.
