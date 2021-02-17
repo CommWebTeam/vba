@@ -8,7 +8,7 @@ The MathML macro converts all equations into regular mathml text. It should be r
 To run the macro for the first time, you will have to add the MSForms library. You can do this with the following steps:
 1. If you do not already have the Developer tab in the Word toolbar, go to File -> Options -> Customize Ribbon and check "Developer" under Main Tabs.
 2. In the Developer tab, click "Visual Basic". This is where you run your macros.
-3. In the Visual Basic window, go to Tools -> References -> Browse, go to the System32 folder (type System32 into the address), and select (a file - forgot its name).
+3. In the Visual Basic window, go to Tools -> References -> Browse, go to the System32 folder (type System32 into the address), and select the "FM20.DLL" file.
 4. Back in the References window, check Microsoft Forms 2.0 Object Library, which should be at the bottom of the list.
 5. Restart Word.
 
