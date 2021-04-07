@@ -17,8 +17,9 @@ To run macros in general:
 2. Open Visual Basic from the Developer tab.
 3. Go to Insert -> Module and paste the macro code in.
 4. Click the green "Run" button and select the macro you want to run.
+  - If this doesn't work, then in the Visual Basic editor, click to the left of every line in the macro (a red dot should appear) and hold f5 to run through each line of the macro step-by-step in debug mode.
 
-If these steps don't work, you may have to restart Word.
+If these steps don't work, you may have to restart Word and retry.
 
 After pasting into Dreamweaver, the angle brackets <> will be converted into html entities, so you will have to replace them manually using the following regex statements to convert them back into tags. Converting them into tags can also be done with the [general dreamweaver formatting tool](https://commwebteam.github.io/gen_dw_format/dreamweaver_paste_formatter/dw_paste_format.html).
 1. Replace &amp;lt;(/&ast;math.&ast;?)&amp;gt; with &lt;$1&gt;
