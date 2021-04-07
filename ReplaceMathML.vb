@@ -13,7 +13,7 @@ If ActiveDocument.OMaths.Count > 0 Then
             Selection.Copy
             objData.GetFromClipboard
             strMath = Replace(objData.GetText(), "mml:", "")
-            strMath = Replace(strMath, "xmlns:mml=""http://www.w3.org/1998/Math/MathML"" xmlns:m=""http://schemas.openxmlformats.org/officeDocument/2006/math""", "")
+            strMath = Replace(strMath, " xmlns:mml=""http://www.w3.org/1998/Math/MathML"" xmlns:m=""http://schemas.openxmlformats.org/officeDocument/2006/math""", "")
             oRange.Select
             Selection.Next.Select
             .OMaths(1).Range.Select
