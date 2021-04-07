@@ -17,7 +17,7 @@ To run macros in general:
 2. Open Visual Basic from the Developer tab.
 3. Go to Insert -> Module and paste the macro code in.
 4. Click the green "Run" button and select the macro you want to run.
-  - If this doesn't work and you get an error message that says "DataObject:GetFromClipboard OpenClipboard Failed", then in the Visual Basic editor, click to the left of every line in the macro (a red dot should appear) and hold f5 to run through each line of the macro step-by-step in debug mode.
+    - If this doesn't work and you get an error message that says "DataObject:GetFromClipboard OpenClipboard Failed", then in the Visual Basic editor, click to the left of every line in the macro (a red dot should appear) and hold f5 to run through each line of the macro step-by-step in debug mode.
 
 If these steps don't work, you may have to restart Word and retry.
 
